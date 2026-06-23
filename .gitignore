@@ -1,0 +1,52 @@
+# Build files
+build/
+release/
+
+# Object files
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.elf
+*.map
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.pro.user
+*.pro.user.*
+
+#QT creator IDE
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qmlproject.user
+*.creator.user
+*.creator.shared
+*.config
+
+# Qt Creator internal cache
+.qtcreator/
+*.creator.user
+*.pro.user*
+
+CMakeLists.txt.user
+.idea/
+.vscode/
+.qt/
+.cache/
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
